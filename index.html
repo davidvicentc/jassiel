@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jassiel - tus mejores computadoras</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Allerta" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/jassiel.css">
+	</style>
+</head>
+	<body>
+		<section id="portada" class="portada"> <!-- portada -->
+			<header id="header" class="header contenedor"> <!-- header -->
+				<figure class="logotipo"> <!-- logotipo -->
+					<img src="img/jassiel.png" width="200" height="60" alt="logotipo Jassiel">
+				</figure>
+				<nav class="menu"> <!-- menu -->
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="#computadoras">Computadoras</a>
+						</li>
+						<li>
+							<a href="precios.html">Precios</a>						
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<div class="contenedor">
+				<h1 class="titulo">Computadoras al mejor precio</h1><!-- titulo -->
+				<h3 class="title-a">¡Obten la mejor computadora de el mercado!</h3> <!-- resumen -->
+				<a class="button" href="#computadoras">Ver mas</a> <!-- boton -->
+			</div>
+		</section>
+		<section id="computadoras" class="computadoras contenedor"> <!-- computadoras -->
+			<h2>Nuestras computadoras</h2> <!--titulo-->
+			<article class="computadora"> <!-- computadora 1 -->
+				<img class="derecha" src="img/laptop.png" alt="computadora invie acustica" width="350">
+				<div class="contenedor-computadora-a">
+					<h3 class="title-b">Laptop LG</h3>
+					<ol>
+						<li>Pantalla de 19 pulgadas.</li>
+						<li>4 gygabytes de memoria ram</li>
+						<li>procesador intel core i5</li>	
+				</div>
+				
+				</ol>
+			</article>
+			<article class="computadora b"> <!-- computadora 2 -->
+				<img class="izquierda" src="img/pc.png" alt="computadora de escritorio" width="350">
+				<div class="contenedor-computadora-b">
+					<h3 class="title-b">Computadora de escritorio</h3>
+					<ol>
+						<li>Viene incluido perifericos como: mouse, teclado, bocinas</li>
+						<li>8 gygabytes de memoria ram</li>
+						<li>procesador intel core i7 ultima generacion</li>
+				</div>
+				
+				</ol>
+			</article>
+		</section>
+		<footer class="footer">
+			<div class="contenedor">
+				<div class="contacto">
+					<img src="img/jassiel-white.png" height="80" alt="logotipo jassiel">
+					<a href="tel:+584246678853"><strong>Telefono</strong><span>584246678853</span></a>
+					<a href="mailto:djassiell@gmail.com"><strong>E-mail</strong><span>djassiell@gmail.com</span></a>
+				</div>
+				<form class="formulario">
+					<div class="col1">
+						<label for="nombre">Nombre</label>
+						<input type="text" id="nombre" name="nombre" required>
+						<label for="email">E-mail</label>
+						<input type="email" id="email" name="email" required>
+
+						<div class="sexo">
+								<label for="mujer">
+									<input type="radio" checked id="mujer" name="sexo" value="mujer"> Mujer
+								</label>
+								<label for="hombre">
+									<input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+								</label>
+							<div class="intereses">
+								<label for="cotizacion">
+									<input type="checkbox" checked name="intereses" id="cotizacion" value="cotizacion"> Cotizacion
+								</label>
+								<label for="reclamos">
+									<input type="checkbox" name="intereses" id="reclamos" value="reclamos"> Reclamos
+								</label>
+								<label for="comentarios">
+									<input type="checkbox" name="intereses" id="comentarios" value="comentarios"> Comentarios
+								</label>
+								<label for="otros">
+									<input type="checkbox" name="intereses" id="otros" value="otros"> Otros
+								</label>
+							</div>
+						</div>	
+					</div>
+					
+					<div class="col2">
+						<label for="comentarios">Comentarios</label>
+						<textarea id="comentarios" cols="30" rows="7"></textarea>
+						<input type="submit" value="Enviar" class="button">
+					</div>
+				</form>	
+			</div>
+		</footer>
+	</body>
+</html>
