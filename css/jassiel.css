@@ -221,3 +221,11 @@ table, td, th {
 	background-image: url('../img/background.png');
 	background-size: cover; 
 }
+
+#computadoras {
+	
+}
+
+input {
+	border-radius: 8px;
+}
