@@ -135,6 +135,7 @@ body {
 
 .contacto img {
 	display: block;
+	margin-top: 20px;
 }
 
 .contacto strong {
@@ -144,7 +145,7 @@ body {
 .contacto a {
 	color: white;
 	text-decoration: none;
-	margin: 5px 5px 5px 0;
+	margin: 20px 10px 10px 0;
 }
 
 .footer .contenedor {
@@ -209,4 +210,22 @@ td {
 table, td, th {
 	border: 1px solid #273b47;
 	border-collapse: collapse;
+}
+
+.tabla {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.precios-header {
+	background-image: url('../img/background.png');
+	background-size: cover; 
+}
+
+#computadoras {
+	
+}
+
+input {
+	border-radius: 8px;
 }
